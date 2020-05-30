@@ -8,8 +8,10 @@ declare var require: any;
   providedIn: 'root'
 })
 export class ApiService {
-  // public baseurl: String = localconfig.localserver;
-  public baseurl: String = serverconfig.serverurl;  
+  // // public baseurl: String = localconfig.localserver;
+  // public baseurl: String = serverconfig.serverurl; 
+  public baseurl: String ="https://mypersonalnewapi.herokuapp.com";
+  // public baseurl: String ="http://localhost:3000"; 
   constructor(public http: HttpClient) {
 
   }
